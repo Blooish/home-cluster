@@ -1,9 +1,8 @@
 terraform {
-
   required_providers {
     proxmox = {
-      source  = "telmate/proxmox"
-      version = "2.9.11"
+      source  = "bpg/proxmox"
+      version = "~> 0.45.0"
     }
 
     sops = {
@@ -13,7 +12,7 @@ terraform {
 
     http = {
       source  = "hashicorp/http"
-      version = "3.2.1"
+      version = "3.4.0"
     }
   }
 }

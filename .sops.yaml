@@ -4,14 +4,14 @@ creation_rules:
     unencrypted_regex: "^(kind)$"
     key_groups:
       - age:
-          - age1kafyrfhgzqu734zkma2z7tvgq0acylaxylmurlgen77306usqghs254h8y
+          - age1tlfd3prf27dqkzej6fhq4ke2usxgxn9nsaevggk04uhgmxr7h4pstrldnt
   - path_regex: terraform/.*\.sops\.ya?ml
     unencrypted_regex: "^(kind)$"
     key_groups:
       - age:
-          - age1kafyrfhgzqu734zkma2z7tvgq0acylaxylmurlgen77306usqghs254h8y
+          - age1tlfd3prf27dqkzej6fhq4ke2usxgxn9nsaevggk04uhgmxr7h4pstrldnt
   - path_regex: cluster/.*\.sops\.ya?ml
     encrypted_regex: "^(data|stringData)$"
     key_groups:
       - age:
-          - age1kafyrfhgzqu734zkma2z7tvgq0acylaxylmurlgen77306usqghs254h8y
+          - age1tlfd3prf27dqkzej6fhq4ke2usxgxn9nsaevggk04uhgmxr7h4pstrldnt
