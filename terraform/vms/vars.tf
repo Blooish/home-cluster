@@ -9,8 +9,8 @@ locals {
     {
       type        = "master"
       ip          = "192.168.0.10"
-      cores       = 1
-      memory      = 2048
+      cores       = 2
+      memory      = 4096
       disk_size   = 10
       storage     = "local-lvm"
       storage_ssd = true
@@ -20,7 +20,7 @@ locals {
     {
       type        = "worker"
       ip          = "192.168.0.20"
-      cores       = 1
+      cores       = 2
       memory      = 2048
       disk_size   = 10
       storage     = "local-lvm"
@@ -31,7 +31,7 @@ locals {
     {
       type        = "worker"
       ip          = "192.168.0.21"
-      cores       = 1
+      cores       = 2
       memory      = 2048
       disk_size   = 10
       storage     = "local-lvm"
