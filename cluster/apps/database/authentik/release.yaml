@@ -29,7 +29,7 @@ spec:
       namespace: database
   values:
     authentik:
-      log_level: info
+      log_level: debug
       secret_key: "${SECRET_AUTHENTIK_SECRET_KEY}"
       postgresql:
         host: "${POSTGRES_HOST_ADDRESS}"
