@@ -47,7 +47,7 @@ spec:
           Group: Servers
           Port: 5432
           Username: postgres
-          Password:
+          Password: ${SECRET_POSTGRES_ADMIN_PASS}
           Host: postgresql.database.svc.cluster.local
           SSLMode: prefer
           MaintenanceDB: postgres
