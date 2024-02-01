@@ -85,5 +85,4 @@ spec:
         existingClaim: qbitorrent-config
       downloads:
         enabled: true
-        existingClaim: qbitorrent-down
         mountPath: /downloads
