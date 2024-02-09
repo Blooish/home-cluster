@@ -85,11 +85,9 @@ spec:
         existingClaim: qbitorrent-config
       downloads:
         enabled: true
-        size: 30G
-        accessModes: ReadWriteOnce
-        mountPath: /downloads
+        existingClaim: qbitorrent-download
+        mountPath: /download
       media:
         enabled: true
-        accessModes: ReadWriteOnce
-        size: 30G
+        existingClaim: qbitorrent-media
         mountPath: /media
