@@ -1,18 +1,18 @@
 ---
-apiVersion: helm.toolkit.fluxcd.io/v2beta1
+apiVersion: helm.toolkit.fluxcd.io/v2beta2
 kind: HelmRelease
 metadata:
   name: qbittorrent
   namespace: media
 spec:
-  interval: 15m
+  interval: 30m
   chart:
     spec:
       chart: app-template
       version: 2.5.0
       sourceRef:
         kind: HelmRepository
-        name: chart-bjw
+        name: bjw-s
         namespace: flux-system
   maxHistory: 3
   install:
@@ -27,7 +27,7 @@ spec:
   values:
     image:
       repository: ghcr.io/onedr0p/qbittorrent
-      tag: 4.6.3@sha256:6ae586fa7439d4def1ce56b5c3205f4467e2537ed5a3e03452c8702137aede6d
+      tag: 4.6.3@sha256:a4ad890e8c4a287c17d12ca22eb1d84a046aba2efbd882bf7d6eb12459f6a70c
     hostname: qbittorrent
     env:
       TZ: ${TIMEZONE}
