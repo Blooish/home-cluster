@@ -86,12 +86,10 @@ spec:
       downloads:
         enabled: true
         size: 30G
-        accessModes:
-          - ReadWriteOnce
+        accessModes: ReadWriteOnce
         mountPath: /downloads
       media:
         enabled: true
-        accessModes:
-          - ReadWriteOnce
+        accessModes: ReadWriteOnce
         size: 30G
         mountPath: /media
