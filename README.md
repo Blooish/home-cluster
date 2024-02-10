@@ -41,3 +41,9 @@ task ansible:prepare
 task ansible:install
 task cluster:bootstrap
 ```
+
+#### Qbittorrent
+In case you got an ingress-ngnix error:
+```
+kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
+```
