@@ -4,7 +4,7 @@ metadata:
     name: github-token
     namespace: flux-system
 stringData:
-    token: ENC[AES256_GCM,data:7f+LX6x2uPntrQZfM6bVk4T90QrZyIY0tsilL/jzZ64GGSrTAWtAWGxbQxJHi7Iho0G3KRw+9ySsOHHtCVtBoRuA0XQaP3LhZUkOqVagW8b10Xe3Bmks4u/eNgQn,iv:GJXknLNLvx84926880FMCObzxtI0bIBiskIYJqCyDCk=,tag:K9rwIwvVJpjriJWZ4XG6Cg==,type:str]
+    token: ENC[AES256_GCM,data:zquwz3KH8enZRBBXVVbYjkrXfCr2Ll/WPyBYqPKj2rJB0p6YIhRsh2b2D/1UZDj6ieRrnxhoZFmH9pfGDo/Dwh2Obo2TRXBx963/TiK9nJMH2NmTtazeZicS999s,iv:AYFqpIpf+wODrpONW8EgPILGUKeWLED4SxuG5kVbAcM=,tag:DXAdCF5cwFRGNgQJlwh/cw==,type:str]
 sops:
     kms: []
     gcp_kms: []
@@ -20,8 +20,8 @@ sops:
             R3R3UlhBY25reTZGVE5sZTQwaWhwTjQKSQ70CZG2850xeVXTym/a6ik3e9tKGvOd
             aUOUtQwUiARE33fHycvVvlIdw+v2MUPN3OyoqnbtgKJOyujYgb7gqg==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2024-02-01T13:25:59Z"
-    mac: ENC[AES256_GCM,data:nYEbYJD0saWtEbVaM0nS0Z/DepXgl150n2aN4aCjDDjKhDTonWeNa2tp6VXYZM3SuGlqIVLCLmXB1dLYOaFyEaWSobAeftdjXRBmQFtOxaZyJznYqbIueSpSlNt9g+Ia6jEXNTprzB2ky/35wOUknuMJZA2nCg1CvZ4otMI8AqQ=,iv:ITuYzccAYS77N78QScRetHq/BE1qTht98KmoArSsEng=,tag:dgsJQ83TdB08k+BTA2UtJA==,type:str]
+    lastmodified: "2024-02-11T11:45:02Z"
+    mac: ENC[AES256_GCM,data:BVmpyGe7YOJlCngjtfwCFRvBMQOV6toLlElpOxAH338+g3bwNBZppgm6McXWrL9SvP7AQRfCjTZuvOMYL2eRFDCxsMUSkxIWwRMusxAtJZs8UrErMZuQDwxJmBoQRXlAL7t296wzz/DSdwGqQNX6dQmuMra38So2NnjA9LMsSwU=,iv:p3hQPZkZaWjf8Dsl9FtNEHYLqEuDjGpjDAIr0GuEmos=,tag:0wtR+21/+9LrCZOVm0tMgA==,type:str]
     pgp: []
     encrypted_regex: ^(data|stringData)$
     version: 3.8.1
