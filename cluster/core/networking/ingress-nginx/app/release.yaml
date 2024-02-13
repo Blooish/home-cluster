@@ -39,6 +39,7 @@ spec:
         annotations:
           metallb.universe.tf/loadBalancerIPs: "${NIGNX_INGRESS_IP}"
         externalTrafficPolicy: Local
+      allowSnippetAnnotations: true
       publishService:
         enabled: true
       ingressClassResource:
