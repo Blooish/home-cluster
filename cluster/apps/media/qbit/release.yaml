@@ -25,6 +25,8 @@ spec:
   uninstall:
     keepHistory: false
   values:
+    controller:
+      allowSnippetAnnotations: true
     image:
       repository: ghcr.io/onedr0p/qbittorrent
       tag: 4.6.2
